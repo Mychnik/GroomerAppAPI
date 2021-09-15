@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Groomer.API", "Groomer.API\Groomer.API.csproj", "{59F16407-A740-40D4-A7B6-08E250B4E588}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{BB1661E6-E54B-409B-AB82-64DDF3B85B91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{CF67BFFD-7CA1-469E-B42C-A8359CEB0861}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{E4EFF41F-EC61-4D38-8442-CD4AB0BF27BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Groomer.Persistence", "Groomer.Persistence\Groomer.Persistence.csproj", "{ACDE92D4-FA92-4A86-822F-B1D45BA49BB3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Groomer.Domain", "Groomer.Domain\Groomer.Domain.csproj", "{7D25701E-A66B-4913-BC58-1F920B9BB2BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Groomer.Application", "Groomer.Application\Groomer.Application.csproj", "{DA50117E-1190-41FB-BDDA-3AEBFCBAD2CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59F16407-A740-40D4-A7B6-08E250B4E588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F16407-A740-40D4-A7B6-08E250B4E588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F16407-A740-40D4-A7B6-08E250B4E588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F16407-A740-40D4-A7B6-08E250B4E588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACDE92D4-FA92-4A86-822F-B1D45BA49BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACDE92D4-FA92-4A86-822F-B1D45BA49BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACDE92D4-FA92-4A86-822F-B1D45BA49BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACDE92D4-FA92-4A86-822F-B1D45BA49BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D25701E-A66B-4913-BC58-1F920B9BB2BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D25701E-A66B-4913-BC58-1F920B9BB2BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D25701E-A66B-4913-BC58-1F920B9BB2BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D25701E-A66B-4913-BC58-1F920B9BB2BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA50117E-1190-41FB-BDDA-3AEBFCBAD2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA50117E-1190-41FB-BDDA-3AEBFCBAD2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA50117E-1190-41FB-BDDA-3AEBFCBAD2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA50117E-1190-41FB-BDDA-3AEBFCBAD2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59F16407-A740-40D4-A7B6-08E250B4E588} = {BB1661E6-E54B-409B-AB82-64DDF3B85B91}
+		{ACDE92D4-FA92-4A86-822F-B1D45BA49BB3} = {E4EFF41F-EC61-4D38-8442-CD4AB0BF27BA}
+		{7D25701E-A66B-4913-BC58-1F920B9BB2BE} = {CF67BFFD-7CA1-469E-B42C-A8359CEB0861}
+		{DA50117E-1190-41FB-BDDA-3AEBFCBAD2CC} = {CF67BFFD-7CA1-469E-B42C-A8359CEB0861}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92109332-0EB0-4C69-820F-6570540573FF}
+	EndGlobalSection
+EndGlobal

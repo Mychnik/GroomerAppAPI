@@ -1,0 +1,12 @@
+E:\PORTFOLIO\GroomerAPI\GroomerAppAPI\Groomer.Domain\bin\Debug\net5.0\Groomer.Domain.deps.json
+E:\PORTFOLIO\GroomerAPI\GroomerAppAPI\Groomer.Domain\bin\Debug\net5.0\Groomer.Domain.dll
+E:\PORTFOLIO\GroomerAPI\GroomerAppAPI\Groomer.Domain\bin\Debug\net5.0\ref\Groomer.Domain.dll
+E:\PORTFOLIO\GroomerAPI\GroomerAppAPI\Groomer.Domain\bin\Debug\net5.0\Groomer.Domain.pdb
+E:\PORTFOLIO\GroomerAPI\GroomerAppAPI\Groomer.Domain\obj\Debug\net5.0\Groomer.Domain.csproj.AssemblyReference.cache
+E:\PORTFOLIO\GroomerAPI\GroomerAppAPI\Groomer.Domain\obj\Debug\net5.0\Groomer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\PORTFOLIO\GroomerAPI\GroomerAppAPI\Groomer.Domain\obj\Debug\net5.0\Groomer.Domain.AssemblyInfoInputs.cache
+E:\PORTFOLIO\GroomerAPI\GroomerAppAPI\Groomer.Domain\obj\Debug\net5.0\Groomer.Domain.AssemblyInfo.cs
+E:\PORTFOLIO\GroomerAPI\GroomerAppAPI\Groomer.Domain\obj\Debug\net5.0\Groomer.Domain.csproj.CoreCompileInputs.cache
+E:\PORTFOLIO\GroomerAPI\GroomerAppAPI\Groomer.Domain\obj\Debug\net5.0\Groomer.Domain.dll
+E:\PORTFOLIO\GroomerAPI\GroomerAppAPI\Groomer.Domain\obj\Debug\net5.0\ref\Groomer.Domain.dll
+E:\PORTFOLIO\GroomerAPI\GroomerAppAPI\Groomer.Domain\obj\Debug\net5.0\Groomer.Domain.pdb
