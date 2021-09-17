@@ -1,4 +1,5 @@
 ﻿using Groomer.Core.Functions.Users.Commands.EditUserInformation;
+using Groomer.Core.Functions.Users.Queries.GetUserInformations;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -15,11 +16,17 @@ namespace Groomer.API.Controllers
         {
             _mediator = mediator;
         }
-        [HttpPost("EditUserInformation", Name = "EditUserInformation")]
+        [HttpPost("EditCustomerInformation", Name = "EditCustomerInformation")]
         public async Task<ActionResult> EditUserInformation([FromBody] EditCustomerInformationCommand editUserInformationCommand)
         {
             await _mediator.Send(editUserInformationCommand);
             return Ok();
+        }
+        [HttpGet("GetCustomerInformation", Name = "GetCustomerInformation")]
+        public async Task<ActionResult<CustomerInformations>> GetCustomerInformation([FromBody] GetCustomerInformationQuery getCustomerInformationQuery)
+        {
+            var result = await _mediator.Send(getCustomerInformationQuery);
+            return result;
         }
     }
 }
